@@ -1,0 +1,36 @@
+/* Teacher Panel Specific Styles */
+
+/* Teacher-specific attendance form styling */
+.teacher-attendance-form {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 24px;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+/* Teacher class selection highlight */
+.teacher-class-select {
+    font-weight: 600;
+}
+
+/* Teacher student card enhancements */
+.teacher-student-card {
+    transition: all 0.3s ease;
+}
+
+.teacher-student-card:hover {
+    border-color: rgba(0, 102, 255, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 102, 255, 0.2);
+}
+
+/* Teacher action buttons */
+.teacher-save-btn {
+    background: var(--secondary-color);
+    width: 100%;
+    max-width: 300px;
+}
+
+.teacher-save-btn:hover {
+    background: #059669;
+}
+

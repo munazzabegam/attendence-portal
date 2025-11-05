@@ -1,0 +1,42 @@
+/* Student Panel Specific Styles */
+
+/* Student attendance history styling */
+.student-attendance-table {
+    margin-top: 24px;
+}
+
+/* Student statistics cards */
+.student-stat-card {
+    transition: all 0.3s ease;
+}
+
+.student-stat-card.present {
+    border-left: 4px solid #34d399;
+}
+
+.student-stat-card.absent {
+    border-left: 4px solid #fca5a5;
+}
+
+.student-stat-card.late {
+    border-left: 4px solid #fbbf24;
+}
+
+/* Student class cards */
+.student-class-card {
+    text-align: center;
+    padding: 24px;
+}
+
+.student-class-card i {
+    font-size: 32px;
+    margin-bottom: 12px;
+    opacity: 0.8;
+}
+
+/* Student profile emphasis */
+.student-welcome {
+    font-size: 28px;
+    font-weight: 600;
+}
+

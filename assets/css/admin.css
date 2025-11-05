@@ -1,0 +1,28 @@
+/* Admin Panel Specific Styles */
+
+/* Admin-specific card colors */
+.admin-card-primary {
+    background: rgba(79, 70, 229, 0.2);
+}
+
+.admin-card-primary .card-icon {
+    background: #4f46e5;
+}
+
+/* Admin table actions */
+.admin-action-btn {
+    background: #f97316;
+    font-size: 12px;
+    padding: 8px 16px;
+}
+
+.admin-action-btn:hover {
+    background: #ea580c;
+}
+
+/* Admin statistics emphasis */
+.admin-stat-large {
+    font-size: 32px;
+    font-weight: 700;
+}
+
